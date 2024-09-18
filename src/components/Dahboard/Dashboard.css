@@ -1,0 +1,70 @@
+.main-div {
+  width: 100vw;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center; 
+  padding-bottom: 20px;
+  padding-top: 10px;
+  min-height: 100vh;
+}
+
+.grievance-card {
+  width: 25rem;
+  height: 370px; 
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-checkbox {
+  margin-right: 10px;
+}
+
+.card-trash-icon {
+  color: red;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 420px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container button {
+  margin-right: 40px;
+}
